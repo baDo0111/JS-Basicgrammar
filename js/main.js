@@ -60,3 +60,32 @@
 	// 定数と変数の使い分け方は、ある名前に割り当てた値がころころと変わると分かりづらいので、
 	// なるべくconstを使いつつ、どうしても必要な時にletを使う方法が執られる。
 
+	// もう少し詳しい変数を使った計算
+
+	let nedan = 500;
+
+	// nedan = nedan + 100;
+	nedan += 100; // 上のコメントされた式と同じ意味を持つ　A. 500+100=600
+
+	// nedan = nedan * 2;
+	nedan *= 2; // 上のコメントと同じ意味を持つ　A. 600*2=1200
+
+	// nedan = nedan + 1;
+	// nedan += 1;
+	nedan++; // 上のコメントと同じ意味を持つ　A. 1200+1=1201
+
+	// price -= 1;
+	nedan--; // 上のコメントと同じ意味を持つ　A. 1201-1=1200
+
+	console.log(nedan);
+
+	// javaScriptのデータ型
+
+	// 文字列(String)ー'hello',"世界"
+	// 数値(Number)ー5 4.3 -20 -1.8
+	// UndefinedーUndefined
+	// Nullーnull
+	// 真偽値(Boolean)ーtrue false
+	// オブジェクト(Object)ー{a:3, b:5}
+
+	console.log(typeof 'hello');
