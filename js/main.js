@@ -89,3 +89,18 @@
 	// オブジェクト(Object)ー{a:3, b:5}
 
 	console.log(typeof 'hello');
+	console.log(typeof 5);
+	console.log(typeof true);
+	console.log(typeof undefined);
+	console.log(typeof null);
+
+	// 数字からなる文字列を扱ってみよう
+
+	console.log('5' * 3);
+	console.log('5' + 3);
+	console.log(parseInt('5', 10) + 3);
+
+	console.log(parseInt('hello', 10)); //コンソールログではNaNとなる。
+	// NaNとは、数値にしようとしたけどできなかった場合にこうした値が出てくる。
+
+	
