@@ -120,4 +120,29 @@
 
 	// ifで条件分岐をしてみよう
 
-	
+	// 構文1）if (条件式) {
+	// 	trueだったときの処理
+	// }
+
+	// 構文2）if (条件式A) {
+	//  Aがtrueだったときの処理
+	// } else if (条件式B) {
+	//  AがfalseでBがtrueだったときの処理
+	// } else {
+	//  それ以外の場合の処理
+	// }
+
+	const score = 81;
+
+	if (score >= 80) {
+		console.log('Great!');
+	}
+
+	if (score >= 80) {
+		console.log('Great!');
+	} else if (score >=60 ) {
+		console.log('Good');
+	} else {
+		console.log('OK...');
+	}
+	// {}で囲った部分をブロックと呼ぶ、命令の終わりには；をつけるルールだが、命令がブロックで終わる場合には；をつけない。
