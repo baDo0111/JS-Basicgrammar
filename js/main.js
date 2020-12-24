@@ -103,4 +103,21 @@
 	console.log(parseInt('hello', 10)); //コンソールログではNaNとなる。
 	// NaNとは、数値にしようとしたけどできなかった場合にこうした値が出てくる。
 
+	//比較演算子を使ってみよう
+
+	const a = 1200;
+
+	console.log(a > 1000); //true 何々より大きいは>
+	console.log(a < 1000); //false 何々より小さいは<
+	console.log(a >= 1000); //true 何々より以上は>=
+	console.log(a >= 1000); //false 何々以下は<=
+	console.log(a === 1000); //false 何々と等しいは===
+	console.log(a !== 1000); //true 何々と異なるは!==
+	// 間違いやすい点として、比較する時は===, 代入する時は= なので区別する。
+
+	console.log(Boolean(0));
+	console.log(Boolean('hello'));
+
+	// ifで条件分岐をしてみよう
+
 	
