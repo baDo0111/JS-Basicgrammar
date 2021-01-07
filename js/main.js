@@ -140,9 +140,24 @@
 
 	if (score >= 80) {
 		console.log('Great!');
-	} else if (score >=60 ) {
+	} else if (score >= 60 ) {
 		console.log('Good');
 	} else {
 		console.log('OK...');
 	}
 	// {}で囲った部分をブロックと呼ぶ、命令の終わりには；をつけるルールだが、命令がブロックで終わる場合には；をつけない。
+
+	//条件演算子を使ってみよう
+	const tokuten = 85;
+
+	// if (tokuten >= 80) {
+	// 	console.log('Great!');
+	// } else if (score >= 60 ) {
+	// 	console.log('Good');
+	// } else {
+	// 	console.log('OK...');
+	// }
+
+	tokuten >= 80 ? console.log('Great!') : console.log('OK...');
+	// この構文は短く書けるという利点の一方で、場合によってはコードが読みにくくなるという欠点もあります。
+	// 使用するときは読みやすさとのバランスを考えて使う
