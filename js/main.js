@@ -161,3 +161,24 @@
 	tokuten >= 80 ? console.log('Great!') : console.log('OK...');
 	// この構文は短く書けるという利点の一方で、場合によってはコードが読みにくくなるという欠点もあります。
 	// 使用するときは読みやすさとのバランスを考えて使う
+
+	//　論理演算子を使ってみよう
+
+	const tensuu = 60;
+	const name = 'taguti';
+
+	// if (score >= 50) {
+	// 	if (name === 'taguti') {
+	// 		console.log('Good job!');
+	// 	}
+	// }
+
+	// &&　なおかつ(ANDの論理演算子と呼ばれる)
+	// ||　もしくは(ORの論理演算子と呼ばれる)
+	// !　 〜ではない(NOTの論理演算子と呼ばれる)
+
+	if (score >= 50 && name === 'taguti') {
+		console.log('Good job!！');
+	}
+
+	// このように、論理演算子を使うと複雑な条件もスッキリ書くことができる
