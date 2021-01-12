@@ -231,3 +231,27 @@
 		console.log(i);
 	}
 	// iが4になったらbreakされそれ以降の処理は実行されない
+
+	// 関数で処理をまとめてみよう
+
+	//次のような文章が表示されるプログラムを書いていたとして、合間に広告を挟みたくなったとする
+	//次のように同じコードが何度も出てくると、広告を変えたくなった時に全てを直す必要があり、修正漏れが発生する可能性がある。
+	//このような場合に関数を使って処理をまとめてあげると良い。
+
+	function showAd() {
+		console.log('--------');
+		console.log('---ad---');
+		console.log('--------');
+	}
+
+	showAd();
+	console.log('Tom is great!');
+	console.log('Bob is great!');
+	showAd();
+	console.log('Steve is great!');
+	console.log('Richard is great!');
+	showAd();
+
+	// functionというキーワードを書いて、これに処理につけたい名前を書く、今回はshowAにする。
+	// これでshowAdという名前で呼び出すことができるようになったので呼び出したいところでshowAd()とすれば良い。
+	// 関数で処理をまとめると、コードを書く量が減り、処理の内容を変更したくなった時にはfunctionの内容を修正すれば済む。
